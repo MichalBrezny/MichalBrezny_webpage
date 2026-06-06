@@ -1,6 +1,13 @@
 # for more options, see https://docs.rendercv.com/user_guide/yaml_input_structure/design/
 design:
   theme: classic
+  colors:
+    # University of Ostrava, Faculty of Science (PřF) green — deep shade for
+    # readability in print. Body text stays the default black.
+    name: "#3f5e12"
+    section_titles: "#3f5e12"
+    connections: "#3f5e12"
+    links: "#3f5e12"
   page:
     size: a4
     show_footer: false

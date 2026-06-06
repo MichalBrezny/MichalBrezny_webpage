@@ -1,0 +1,52 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+/* Built-in Sass modules you'll likely use across partials */
+@use "sass:math";
+@use "sass:string";
+
+/* Configure your design tokens BEFORE loading any of your partials.
+   Make sure `_sass/_variables.scss` declares `$max-content-width: 72rem !default;` */
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default:  "930px" }}
+);
+
+/* Your project partials — convert these files to `@use "variables";`
+   (or `@use "variables" as *;`) inside each file and qualify variables if needed. */
+@use "themes";
+@use "layout";
+
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+// Other specialized styles
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+/* ---------------------------------------------------------------------------
+   LOCAL SITE OVERRIDE — accent color = University of Ostrava, Faculty of
+   Science (Přírodovědecká fakulta) green. Source: OU graphic manual, p. 20–21
+   (#7a9c22 = RGB 122/156/34, Pantone 377 C). Light theme uses a deepened green
+   for link weight/contrast against the thin font on white, brightening to the
+   exact PřF green on hover; dark theme uses the brand green, lightening on
+   hover. This block must stay AFTER all @use rules.
+   --------------------------------------------------------------------------- */
+:root,
+html[data-theme="light"] {
+  --global-theme-color: #34500e;
+  --global-hover-color: #7a9c22;
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #7a9c22;
+  --global-hover-color: #a6cf3f;
+}

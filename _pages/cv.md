@@ -1,12 +1,14 @@
 ---
 layout: cv
 permalink: /cv/
-title: CV
+title: cv
 nav: true
 nav_order: 5
-cv_pdf: /assets/pdf/example_pdf.pdf # you can also use external links here
+cv_pdf: /assets/rendercv/rendercv_output/Brezny_CV_EN.pdf # English CV, auto-generated from _data/cv.yml by RenderCV
 cv_format: rendercv # options: rendercv, jsonresume
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description: A short CV in English. A full curriculum vitae in Czech is also available for download.
 toc:
   sidebar: left
 ---
+
+The full curriculum vitae (in Czech) is available here: [Full CV — Czech (PDF)]({{ '/assets/pdf/Brezny_CV.pdf' | relative_url }}).

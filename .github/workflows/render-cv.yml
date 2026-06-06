@@ -42,8 +42,12 @@ jobs:
             echo "Missing RenderCV config file!"
             exit 1
           fi
-          rendercv render $cv_file --settings $settings
-          rm assets/rendercv/rendercv_output/*.typ
+          # rendercv resolves render_command paths relative to CWD, and the
+          # settings paths are written relative to _data/, so run from there.
+          settings_abs=$(realpath "$settings")
+          ( cd "$(dirname "$cv_file")" && rendercv render "$(basename "$cv_file")" --rendercv-settings "$settings_abs" )
+          rm -rf _data/rendercv_output                 # intermediate output folder rendercv creates in CWD
+          rm -f assets/rendercv/rendercv_output/*.typ  # keep only the PDF
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
         with:

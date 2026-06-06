@@ -57,9 +57,6 @@ on:
       - "!README.md"
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
@@ -101,8 +98,17 @@ jobs:
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
-      - name: Deploy 🚀
+      - name: Deploy to WEDOS via FTPS 🚀
         if: github.event_name != 'pull_request'
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
-          folder: _site
+          server: ${{ secrets.WEDOS_FTP_SERVER }}
+          username: ${{ secrets.WEDOS_FTP_USERNAME }}
+          password: ${{ secrets.WEDOS_FTP_PASSWORD }}
+          protocol: ftps
+          port: 21
+          local-dir: ./_site/
+          server-dir: /www/domains/michalbrezny.com/
+          exclude: |
+            **/.git*
+            **/.github/**

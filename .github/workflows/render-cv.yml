@@ -49,7 +49,7 @@ jobs:
           rm -rf _data/rendercv_output                 # intermediate output folder rendercv creates in CWD
           rm -f assets/rendercv/rendercv_output/*.typ  # keep only the PDF
       - name: Upload rendercv_output as an artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: RenderCV Output
           path: assets/rendercv/rendercv_output

@@ -33,8 +33,13 @@ Změnit akcent z fialové (`#b509ac`, mimochodem barva FF OU) na zelenou Příro
 
 - [ ] **Varianta A (doporučeno, CI-čistá):** vytvořit `assets/css/main.scss` = věrná kopie gemového `assets/css/main.scss` + na konec přidat:
   ```scss
-  :root, html[data-theme="light"] { --global-theme-color: #5f7d1a; }
-  html[data-theme="dark"]        { --global-theme-color: #7a9c22; }
+  :root,
+  html[data-theme="light"] {
+    --global-theme-color: #5f7d1a;
+  }
+  html[data-theme="dark"] {
+    --global-theme-color: #7a9c22;
+  }
   ```
   pak `bundle exec al-folio upgrade overrides audit` a commitnout `.al-folio-overrides.yml`. (Pozn.: `main.scss` nahrazuje celý gemový CSS bundle → nutná věrná kopie, hlídat drift při bump verze gemu.)
 - [ ] **Varianta B (nejlehčí, ale rozbije CI):** `_sass/_themes.scss` se 3 řádky — `lint:style-contract` ale `_sass` ve starteru zakazuje, takže by bylo nutné upravit `test/style_contract.js`.

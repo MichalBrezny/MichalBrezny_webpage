@@ -15,7 +15,6 @@ I enjoy bringing geomorphology to the public — through talks, popular-science 
 
 - I participate in [Scientists' Night](https://www.nocvedcu.cz/en/about), an annual scientific event for the public.
 - Summer school of geography for high school students organized by our department.
-- Public talk "Sesuvy v Beskydech a lidé" in the [Pestré vrstvy](https://www.eprogram.cz/akce/34844-sesuvy-v-beskydech-a-lide-pestre-vrstvy) lecture series (in Czech).
 - Public talk [Sesuvy v evoluci krajin – měřítka a epizody](https://www.youtube.com/watch?v=O7GfRXi5Mwg) in the Pátečníci lecture series (YouTube, in Czech).
 
 ## Ask a Scientist

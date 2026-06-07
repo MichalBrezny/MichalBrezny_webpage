@@ -1,13 +1,13 @@
 ---
 layout: page
-permalink: /teaching/
-title: teaching
-description: Teaching activities
+permalink: /outreach/
+title: outreach
+description: Outreach activities and public engagement
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
-# Teaching
+# Outreach
 
 ## Textbook
 

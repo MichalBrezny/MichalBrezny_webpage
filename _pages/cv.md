@@ -3,7 +3,7 @@ layout: cv
 permalink: /cv/
 title: cv
 nav: true
-nav_order: 5
+nav_order: 7
 cv_pdf: /assets/rendercv/rendercv_output/Brezny_CV_EN.pdf # English CV, auto-generated from _data/cv.yml by RenderCV
 cv_format: rendercv # options: rendercv, jsonresume
 description: A short CV in English. A full curriculum vitae in Czech is also available for download.

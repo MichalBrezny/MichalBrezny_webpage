@@ -16,10 +16,11 @@ I enjoy bringing geomorphology to the public — through talks, popular-science 
 - I participate in [Scientists' Night](https://www.nocvedcu.cz/en/about), an annual scientific event for the public.
 - Summer school of geography for high school students organized by our department.
 - Public talk "Sesuvy v Beskydech a lidé" in the [Pestré vrstvy](https://www.eprogram.cz/akce/34844-sesuvy-v-beskydech-a-lide-pestre-vrstvy) lecture series (in Czech).
+- Public talk [Sesuvy v evoluci krajin – měřítka a epizody](https://www.youtube.com/watch?v=O7GfRXi5Mwg) in the Pátečníci lecture series (YouTube, in Czech).
 
 ## Ask a Scientist
 
-I participate in the [Ask a Scientist project](https://zeptejsevedce.cz/) (in Czech), where the public can ask any scientific question and receive well-founded answers from scientists. The motto of the project is 'There are no stupid questions'. I serve both as an answerer and as a reviewer of the answers. I also gave a talk for them: [Sesuvy v evoluci krajin – měřítka a epizody](https://www.youtube.com/watch?v=O7GfRXi5Mwg) (YouTube, in Czech).
+I participate in the [Ask a Scientist project](https://zeptejsevedce.cz/) (in Czech), where the public can ask any scientific question and receive well-founded answers from scientists. The motto of the project is 'There are no stupid questions'. I serve both as an answerer and as a reviewer of the answers.
 
 ## Popular-science writing
 

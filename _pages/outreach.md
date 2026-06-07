@@ -34,5 +34,5 @@ I also publish on [Ekolist.cz](https://ekolist.cz/) (in Czech), e.g. on [debris 
 
 ## In the media
 
+- Czech Television — [Historie klimatické změny](https://www.ceskatelevize.cz/porady/10150778447-historie-cs/426236100051001/) (Historie.cs discussion programme, March 2026, in Czech).
 - Czech Radio — [Když se řítí kamení: sesuvy u nás i ve světě](https://sever.rozhlas.cz/kdyz-se-riti-kameni-sesuvy-u-nas-i-ve-svete-a-prochazka-novou-pravekou-expozici-9566618) (on our study of Earth's largest landslides).
-- University of Ostrava — [Michal Břežný bude na Antarktidě zkoumat sesuvy a odtávání ledovců](https://www.osu.cz/23109/michal-brezny-bude-na-antarktide-zkoumat-sesuvy-a-odtavani-ledovcu/).

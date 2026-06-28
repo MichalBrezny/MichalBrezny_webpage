@@ -32,4 +32,6 @@ Hi there! I am Michal Břežný, assistant professor at the [University of Ostra
 
 Ahoj! Jsem Michal Břežný, odborný asistent na [Ostravské univerzitě](https://www.osu.cz/). Jsem [geomorfolog](https://en.wikipedia.org/wiki/Geomorphology) fascinovaný procesy, které utvářejí krajinu. Zkoumám především sesuvy, zejména ty velké. Avšak zajímám se i o celkový vývoj krajiny ve velkém měřítku (tektonika, říční eroze, sesuvy). Rád používám geografické informační systémy, digitální výškové modely a další digitální nástroje.
 
-Jsem autorem skript "[Základy geomorfologie](https://www.ucebnice.geomorfo.cz)", které jsou k dispozici na mém [Githubu](https://github.com/MichalBrezny/ucebnice.geomorfo.cz)
+Jsem autorem skript "[Základy geomorfologie](https://www.ucebnice.geomorfo.cz)", zdroják je na mém [Githubu](https://github.com/MichalBrezny/ucebnice.geomorfo.cz)
+
+

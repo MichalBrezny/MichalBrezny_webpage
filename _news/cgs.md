@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I was elected as a chief of Moravo-Silesian branch of Czech Geographic Society (Česká geografická společnost) for the period 2026-2030. I am looking forward to working with the team and contributing to the development of geography in the region!
+I was elected chair of the Moravian-Silesian branch of the Czech Geographic Society (Česká geografická společnost) for the 2026–2030 term. I'm looking forward to working with the team and contributing to the development of geography in the region!
